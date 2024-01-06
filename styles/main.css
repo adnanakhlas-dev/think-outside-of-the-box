@@ -1,6 +1,7 @@
 /* google font work sans */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
 
+/* universal styles */
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +21,21 @@
     font-size: 20px;
     font-weight: 600;
     padding: 20px 25px;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
 }
 
 /* header section style */
@@ -46,10 +62,28 @@
     font-weight: 700;
 }
 
-.section-description {
+.web-description {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     margin: 24px 0 32px 0;
+}
+
+.failure {
+    margin: 140px auto;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+.section-content{
+    width: 416px;
+}
+
+.section-content ul li{
+    list-style-position: inside;
+    list-style-image: url('../images/icons/check-solid.svg');
 }
