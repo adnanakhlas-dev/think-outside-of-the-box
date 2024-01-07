@@ -108,3 +108,22 @@
     margin-top: 24px;
 }
 
+/* positive section style */
+.positive{
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    width: 1600px;
+    margin: 140px auto;
+}
+
+.positive .positive-content{
+    width: 460px;
+    padding: 64px;
+}
+
+.positive .positive-content .section-title{
+    color: #FFF;
+}
