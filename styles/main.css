@@ -17,6 +17,7 @@
 .btn-primary {
     border-radius: 5px;
     background: #FFF;
+    border: 0;
     color: #005FAC;
     font-size: 20px;
     font-weight: 600;
